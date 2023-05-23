@@ -1,0 +1,4 @@
+export(robfmtest)
+import(stats)
+importFrom(MASS, rlm, cov.rob)
+S3method(print, robfmtest)
